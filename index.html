@@ -37,8 +37,13 @@
 <body>
   <h1>Bienvenido a Pizzería Aldemar</h1>
   <p>¡La mejor pizza de la ciudad!</p>
-<li><a href="<?php echo site_url() ?>/README.md">Nuevo Estadio</a></li>
-
+<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Estadios <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="<?php echo site_url() ?>/README.md">Nuevo Estadio</a></li>
+                            <li><a href="<?php echo site_url() ?>/estadio/index">Registro Estadios </a></li>
+                        </ul>
+                    </li>
   
   <h2>Nuestras especialidades:</h2>
   <ul>
